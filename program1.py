@@ -7,7 +7,12 @@ def multiplcation(a,b):
 def division(a,b):
     return a/b
 
-n=int(input("enter the operation(1-4):"))
+n=int(input("enter the operation -\n"
+            "1. Addition\n"
+            "2. Subtraction\n"
+            "3. Multiplication\n"
+            "4. Division\n"
+            ))
 
 a=int(input("enter the first number"))
 b=int(input("enter the second number"))
